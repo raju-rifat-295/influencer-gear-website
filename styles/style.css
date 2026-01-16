@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -11,6 +16,9 @@
 
 
 /* ----------------------navbar-styles---------------------- */
+nav{
+    margin-top: 87px;
+}
 .nav-container{
     max-width: 1200px;
     justify-content: space-between;
@@ -93,3 +101,16 @@ nav h2{
 }
 
 
+/* ----------------------sponsors-styles---------------------- */
+.sponsors{
+    margin-top: 70px;
+}
+.sponsors-container{
+    max-width: 1110px;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 36px 62px;
+    align-items: center;
+    border-top: 1px solid rgb(172, 172, 172);
+    border-bottom: 1px solid rgb(172, 172, 172);;
+}
